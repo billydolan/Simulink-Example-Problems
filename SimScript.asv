@@ -1,0 +1,25 @@
+% 3rd Order RLC Equation
+
+% L(dQ^3 / dt^3) + R (dQ^2 /dt^2) + (1/C)(dQ/dt) + Q/C = E(t)
+
+% (dQ^3 / dt^3) = -((R (dQ^2 /dt^2) + (1/C)(dQ/dt) + Q/C)/L) + E(t))/L
+
+ts = 0.01;
+tf = 20.0;
+t = [tf:tf:]
+
+
+
+E = 5; %Volts
+
+L = 1; %Inductance
+
+R = 1; %Resistance 
+
+C = 1; %Capacitance
+
+Q = 1; %Capacitor Charge
+
+Kp = 0;
+Ki = 0;
+Kd = 0;
