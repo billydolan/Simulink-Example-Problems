@@ -1,2 +1,3 @@
-# RLC-3rd-Order-Simulink-Example
-An example problem of solving a third order equation in Simulink and Matlab for practice.
+# Simulink-Example-Problems
+
+Example Equations and Problems solved in Matlab/Simulink for practice/studying/learning.
